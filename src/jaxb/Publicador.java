@@ -8,5 +8,4 @@ public class Publicador {
 		Gerador gerador = new Gerador();
 		Endpoint.publish("http://localhost:8080/gerador", gerador);
 	}
-
 }
